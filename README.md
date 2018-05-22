@@ -30,4 +30,4 @@ grape --dp 20002 --aph 40001 --bn '127.0.0.1:20001'
 npm start
 ```
 
-> After starting the service, setup the client: https://github.com/
+> After starting the service, setup the client: https://github.com/ZIMkaRU/test-bit-client
