@@ -1,0 +1,31 @@
+{
+  "name": "test-bit-service",
+  "version": "1.0.0",
+  "description": "Test service",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "ed25519-supercop": "^1.0.2",
+    "grenache-nodejs-link": "^0.7.7",
+    "grenache-nodejs-ws": "git+https://github.com/bitfinexcom/grenache-nodejs-ws.git",
+    "lodash": "^4.17.10",
+    "wasteland": "git+https://github.com/bitfinexcom/wasteland.git",
+    "ws": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "nodemonConfig": {
+    "verbose": true,
+    "ignore": [
+      "node_modules/*",
+      ".git/*",
+      ".idea/*",
+      ".vscode/*"
+    ]
+  },
+  "scripts": {
+    "start": "node index.js",
+    "startDev": "nodemon index.js"
+  }
+}
